@@ -17,7 +17,7 @@ def extract(endpoint):
 
     data = response.json()
 
-    # Salvando o momento em que o arquivo foi salvo
+    # Momento da extração
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S") 
 
     # Caminho do arquivo
